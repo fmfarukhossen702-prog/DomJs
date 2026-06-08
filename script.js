@@ -4,7 +4,7 @@ let ulList = document.getElementById("ulList")
 
 
 
-const handleClick = () => {
+function handleClick () {
 
     if (text.value){
 
