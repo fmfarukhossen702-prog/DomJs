@@ -10,11 +10,15 @@ function handleClick() {
 
   // delet style
   delet.innerHTML =
-    '<i class="fa-solid fa-trash-can" style="color: rgb(1, 1, 1);"></i>';
+    '<i class="fa-solid fa-trash-can" style="color: rgb(0, 0, 0);"></i>';
   delet.style.fontSize = " 12px ";
+  delet.style.color = "white";
+//   delet.style.backgroundColor = "black";
+  delet.style.borderRadius = "15px"
+  delet.style.border = "1px solid white"
+  delet.style.padding = "3px"
   list.style.display = "flex";
   list.style.justifyContent = "space-between";
-  delet.style.color = "white";
   delet.style.marginLeft = "10px";
 
   list.style.paddingRight = "10px";
