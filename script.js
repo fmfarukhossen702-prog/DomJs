@@ -1,13 +1,13 @@
 let text = document.getElementById("text")
 let btn = document.getElementById("submit")
 let ulList = document.getElementById("ulList")
-let relode  = document.getElementById("relode")
+// let relode  = document.getElementById("relode")
 
 
-relode.style.display = "none";
-function inputClick () {
-  relode.style.display = "block";
-}
+// relode.style.display = "none";
+// function inputClick () {
+//   relode.style.display = "block";
+// }
 
 
 function handleClick() {
@@ -67,8 +67,8 @@ function handleClick() {
   ulList.appendChild(list);
   list.appendChild(deletAndEite);
   deletAndEite.appendChild(btnEite);
-  deletAndEite.appendChild(delet);
-}
-function relodeClick () {
+  deletAndEite.appendChild(delet);  
   text.value = "";
 }
+
+
