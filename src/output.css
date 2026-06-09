@@ -173,14 +173,8 @@
   .relative {
     position: relative;
   }
-  .top-1 {
-    top: calc(var(--spacing) * 1);
-  }
   .top-2 {
     top: calc(var(--spacing) * 2);
-  }
-  .top-5 {
-    top: calc(var(--spacing) * 5);
   }
   .right-5 {
     right: calc(var(--spacing) * 5);
@@ -194,9 +188,6 @@
   .mt-10 {
     margin-top: calc(var(--spacing) * 10);
   }
-  .mt-\[-\] {
-    margin-top: -;
-  }
   .block {
     display: block;
   }
@@ -206,20 +197,11 @@
   .table {
     display: table;
   }
-  .h-40 {
-    height: calc(var(--spacing) * 40);
-  }
   .h-50 {
     height: calc(var(--spacing) * 50);
   }
-  .h-100 {
-    height: calc(var(--spacing) * 100);
-  }
   .h-125 {
     height: calc(var(--spacing) * 125);
-  }
-  .h-150 {
-    height: calc(var(--spacing) * 150);
   }
   .h-screen {
     height: 100vh;
@@ -245,6 +227,9 @@
   .justify-center {
     justify-content: center;
   }
+  .overflow-auto {
+    overflow: auto;
+  }
   .overflow-scroll {
     overflow: scroll;
   }
@@ -264,9 +249,6 @@
   .bg-\[\#61e6f07d\] {
     background-color: #61e6f07d;
   }
-  .p-3 {
-    padding: calc(var(--spacing) * 3);
-  }
   .p-5 {
     padding: calc(var(--spacing) * 5);
   }
@@ -276,17 +258,11 @@
   .p-10 {
     padding: calc(var(--spacing) * 10);
   }
-  .px-3 {
-    padding-inline: calc(var(--spacing) * 3);
-  }
   .px-10 {
     padding-inline: calc(var(--spacing) * 10);
   }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
-  }
-  .pr-7 {
-    padding-right: calc(var(--spacing) * 7);
   }
   .pr-10 {
     padding-right: calc(var(--spacing) * 10);
@@ -304,48 +280,6 @@
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
-  }
-  .text-\[\#2b8e2b\] {
-    color: #2b8e2b;
-  }
-  .text-\[\#67\] {
-    color: #67;
-  }
-  .text-\[\#179bb5\] {
-    color: #179bb5;
-  }
-  .text-\[\#676\] {
-    color: #676;
-  }
-  .text-\[\#\] {
-    color: #;
-  }
-  .text-\[\#a8f728\] {
-    color: #a8f728;
-  }
-  .text-\[\#b517a3\] {
-    color: #b517a3;
-  }
-  .text-\[\#c3f473\] {
-    color: #c3f473;
-  }
-  .text-\[\#c028f7\] {
-    color: #c028f7;
-  }
-  .text-\[\#c423ff\] {
-    color: #c423ff;
-  }
-  .text-\[\#dd99f6\] {
-    color: #dd99f6;
-  }
-  .text-\[\#e81dd1\] {
-    color: #e81dd1;
-  }
-  .text-\[\#f473e5\] {
-    color: #f473e5;
-  }
-  .text-\[\#f699f0\] {
-    color: #f699f0;
   }
   .text-\[\#ff00ee\] {
     color: #ff00ee;
