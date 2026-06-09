@@ -1,7 +1,13 @@
 let text = document.getElementById("text")
 let btn = document.getElementById("submit")
 let ulList = document.getElementById("ulList")
+let relode  = document.getElementById("relode")
 
+
+relode.style.display = "none";
+function inputClick () {
+  relode.style.display = "block";
+}
 
 
 function handleClick() {
@@ -23,7 +29,7 @@ function handleClick() {
 
   list.style.paddingRight = "10px";
   list.style.paddingLeft = "10px";
-  list.style.height = "35px";
+  // list.style.height = "35px";
   list.style.border = "1px solid white";
   list.style.alignItems = "center";
   list.style.borderRadius = "10px";
@@ -46,6 +52,10 @@ function handleClick() {
   btnEite.style.paddingLeft = "8px";
   btnEite.style.borderRadius = "5px";
   btnEite.style.backgroundColor = "black";
+  deletAndEite.style.display = "flex";
+  deletAndEite.style.alignItems = "center";
+  deletAndEite.style.padding = "5px";
+  
 
 //   btnEite click abble 
   btnEite.onclick = function () {
@@ -58,4 +68,7 @@ function handleClick() {
   list.appendChild(deletAndEite);
   deletAndEite.appendChild(btnEite);
   deletAndEite.appendChild(delet);
+}
+function relodeClick () {
+  text.value = "";
 }
